@@ -1,0 +1,25 @@
+{
+  "device": "Intel Core Ultra 5 225H CPU",
+  "seed": 2473057,
+  "warmup_predictions": 20,
+  "timed_predictions": 100,
+  "boundary": "JPEG file path to predicted class, including image preparation",
+  "measurements": {
+    "MobileNetV2": {
+      "ms_per_image": 57.47,
+      "source": "reports/week7_comparison.md"
+    },
+    "YOLOv8n-cls": {
+      "ms_per_image": 16.75,
+      "source": "reports/week7_comparison.md"
+    },
+    "YOLOv8s-cls": {
+      "ms_per_image": 32.74,
+      "source": "reports/week7_comparison.md"
+    },
+    "EfficientNet-B0": {
+      "ms_per_image": 18.533845000201836,
+      "source": "results/week8_efficientnet_b0/results.json"
+    }
+  }
+}
